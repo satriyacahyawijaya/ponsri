@@ -6,7 +6,10 @@ int main() {
     int x, y;
     int jumlah, selisih;
 
-    cin >> x >> y;
+    cout << "masukkan x : ";
+    cin >> x;
+    cout << "masukkan y : ";
+    cin >> y;
 
     if (x >= 1 && y <= 99 && x <= y) {
         jumlah = x + y;
